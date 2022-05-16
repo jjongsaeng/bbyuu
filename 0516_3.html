@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 중심 텍스트t</title>
+    <style>
+        html, body{
+            height: 100%; margin: 0;
+        }
+        .container{
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("rkd.jpg");
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: relative;
+
+
+        }
+        .textArea{
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+
+        }
+        .textArea button{
+            border: note;
+            outline: 0;
+            display: inline-block;
+            padding: 10px 25px;
+            color: black;
+            background-color: aquamarine;
+            text-align: center;
+            cursor: pointer;
+        }
+        .texArea h1{font-size: 50px;};
+        .texArea button:hover{background: #fff;color: #000}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="textArea">
+            <h1>한양여ㅇ자대학교</h1>
+            <p>스마트 it과 모두 이뽀</p>
+            <button>진자인가?</button>
+        </div>
+    </div>
+</body>
+</html>
